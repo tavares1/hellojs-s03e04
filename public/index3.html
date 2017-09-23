@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- index3.html -->
+<html>
+<head>
+  <title>Hello, JS!</title>
+</head>
+<body>
+  <button onclick="doecho()">click me!</button>
+  <script type="text/javascript">
+    function doecho() {
+      fetch("/dosave", {
+        method: "POST",
+        headers: new Headers({
+          "Content-Type": "application/json"
+        }),
+        body: JSON.stringify({
+          nome: "Secreto"
+        })
+      }).then(response => {
+        return response.text()
+      }).then(ret => {
+        alert(ret)
+      })
+    }
+    // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+  </script>
+</body>
+</html>

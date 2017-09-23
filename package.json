@@ -1,0 +1,27 @@
+{
+  "name": "hellojs-s03e04",
+  "version": "1.0.0",
+  "description": "Quarto repositório do curso de javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavares1/hellojs-s03e04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tavares1/hellojs-s03e04/issues"
+  },
+  "homepage": "https://github.com/tavares1/hellojs-s03e04#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "knex": "^0.13.0",
+    "sqlite3": "^3.1.11"
+  }
+}

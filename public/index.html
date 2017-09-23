@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="presenca" method="POST">
+            <h1>Presenças</h1>
+            <div class="form-group">
+                <label for="repo">Repositorio: </label>
+                <input type="text" id="repo" name="repo" placeholder="nome do repositório | s03e04" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="issue">Issue</label>
+                <input type="text" name="issue" id="issue" placeholder="número da issue | 5" class="form-control">
+            </div>
+            <input type="submit" class="btn btn-primary">
+        </form>
+    </div>
+</body>
+
+</html>
